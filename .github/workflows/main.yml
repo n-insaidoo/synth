@@ -10,7 +10,7 @@ jobs:
           - name: Checkout
             uses: actions/checkout@v2
           - name: Scan project with the Meterian client
-            uses: MeterianHQ/meterian-github-action@v1.0.7
+            uses: MeterianHQ/meterian-github-action@hotfix-rust
             with:
                 oss: true
                 cli_args: "--debug --scan-nodejs=false"
