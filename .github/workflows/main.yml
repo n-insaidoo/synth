@@ -13,3 +13,5 @@ jobs:
             uses: MeterianHQ/meterian-github-action@v1.0.7
             with:
                 oss: true
+                cli_args: "--debug --scan-nodejs=false"
+            
